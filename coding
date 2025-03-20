@@ -8,7 +8,7 @@ ans=ap(a, b, c)
 print(ans)
 
 # 2  6 10 14 18 22 26 30 34
-
+j
 # Sum of n term is an Ap
 
 a=int(input("Enter the first value of the Ap:-"))
