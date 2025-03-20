@@ -11,6 +11,8 @@ print(ans)
 
 # Sum of n term is an Ap
 
+# Sum of n term is an Ap
+
 a=int(input("Enter the first value of the Ap:-"))
 b=int(input("Enter The Common Difference of The AP:-"))
 c=int(input("Enter the nth term till which sum is needed:-"))
