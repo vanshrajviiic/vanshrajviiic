@@ -120,3 +120,49 @@ elif not has_spc:
     print("No special character")
 else:
     print("Password is strong!")
+ef find_median(numbers):
+#     numbers.sort
+#     n = len(numbers)
+#     if n % 2==0:
+#         median = (numbers[n//2] + numbers[n//2 - 1]) / 2
+#     else:
+#         median = numbers[n//2]
+#     return median
+
+# data = eval(input("Enter numbers separated by comma: "))
+# data = [int(i) for i in data]
+
+# print("The median is:", find_median(data))
+
+
+# def find_hcf(x, y):
+#     while(x != y):
+#         if x > y:
+#             x = x - y
+#         if x == 0:
+#          return y
+#     if y == 0:
+#         return x
+#     else:
+#             y = y - x
+#     return x
+
+# a = int(input("Enter first number: "))
+# b = int(input("Enter second number: "))
+# print("HCF is:", find_hcf(a, b))
+# a=int(input("Enter thee value"))
+# ori=a
+# rev=0
+# while a>0:
+#     digit=a%10
+#     rev=rev*10+digit
+#     a=a//10
+# print(rev)
+# if(rev==ori):
+#     print("Palindrom")
+# else:
+#     print("Non Palindrom")
+a=int(input("Enter:"))
+for i in range(1,a//2+1):
+   print(f"{{{i},{a-i}}}", end=" ")
+   
