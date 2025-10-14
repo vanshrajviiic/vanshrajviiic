@@ -1,0 +1,6 @@
+6. Longest Word with All Prefixes
+
+Q: Given a list of words, find the longest word such that all prefixes of the word are also in the list.
+
+Input: ['a', 'ap', 'app', 'appl', 'apple', 'apply']
+Output: 'apple' or 'apply'
