@@ -80,3 +80,7 @@ print("Number of vowels:", count_vowels(paragraph))
 
 
 4. Check if a String is a Palindrome
+3️⃣ Move All Zeros to End (keep order)
+
+
+Question – Move Zeros to the End in a Number
