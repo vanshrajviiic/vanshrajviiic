@@ -4,3 +4,79 @@ Q: Given a list of words, find the longest word such that all prefixes of the wo
 
 Input: ['a', 'ap', 'app', 'appl', 'apple', 'apply']
 Output: 'apple' or 'apply'
+
+
+
+
+3. Find the Missing Number
+
+Given a list of integers from 1 to N with one number missing, find the missing number.
+
+Example:
+Input: [1, 2, 4, 5], N=5
+Output: 3
+
+
+
+7. Flatten a Nested List
+
+Flatten a list that contains other lists inside it.
+
+Example:
+Input: [1, [2, 3], [4, [5, 6]]]
+Output: [1, 2, 3, 4, 5, 6]
+
+Problem: Find All Contiguous Subarrays with a Given Sum
+
+Description:
+Given an array of integers and a target sum, write a program to find all contiguous subarrays within the array whose elements sum up exactly to the target sum.
+
+
+
+
+Design a Python program that processes an input dictionary characterized by unique values, and constructs a new dictionary wherein
+each original value assumes the role of a key, and the corresponding original key becomes the associated value.
+This inversion should preserve the one-to-one mapping guaranteed by the uniqueness of the original dictionary’s values.
+
+
+
+
+3. Trapping Rain Water
+
+Given n non-negative integers representing an elevation map where the width of each bar is 1, compute how much water it can trap after raining.
+
+
+7. Valid Parentheses
+
+Check if a string containing parentheses is valid (properly closed and nested).
+
+11. Find Peak Element
+
+Find a peak element in an array where an element is greater than its neighbors.
+
+4. Top K Frequent Elements
+
+Given a list, return the k most frequent elements.
+
+15. Count Islands in a Grid
+
+Given a 2D grid map of '1's (land) and '0's (water), count the number of islands.
+
+
+35. Coin Change
+
+Find the number of ways to make change for a given amount using given denominations.
+def count_vowels(paragraph):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in paragraph:
+        if char in vowels:
+            count += 1
+    return count
+
+# Example usage
+paragraph = "Hello world! This is a simple paragraph to count vowels."
+print("Number of vowels:", count_vowels(paragraph))
+
+
+4. Check if a String is a Palindrome
